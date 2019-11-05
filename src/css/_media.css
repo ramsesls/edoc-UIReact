@@ -2,6 +2,7 @@
 :root{
     --sizeLogo:250px;
 }
+
 @media only screen and (max-width: 576px) {
     .hidden-xs{
         display: none !important;
@@ -40,6 +41,7 @@
         position: absolute !important;
         font-size: 24px;
         z-index: 900;
+        cursor: pointer !important;
     }
     .ant-layout-sider
     .close-sider i{
